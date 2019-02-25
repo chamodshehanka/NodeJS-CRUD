@@ -8,6 +8,7 @@ const state = {
     db: null
 };
 
+//DB Connection
 const connect = (cb) => {
     if(state.db){
         cb();
